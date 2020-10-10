@@ -11,7 +11,7 @@ public class ListFilmArchive  extends ArrayList<Movie> implements FilmArchive {
 			}
 		}
 		return super.add(a);
-}
+        }
 	public ArrayList<Movie> getSorted(){
 		TreeSet<Movie> tree = new TreeSet<Movie>(this);
 		ArrayList<Movie> secondList = new ArrayList<Movie>(tree);
